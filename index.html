@@ -1,0 +1,96 @@
+<!--基本標籤-->
+<!--w3school有更多html標籤及教學-->
+<!--查看網頁架構：f12/左鍵檢視元件-->
+<!--提示瀏覽器這個檔案是網頁-->
+<!DOCTYPE html>
+<!--html是網頁的架構，一層接著一層，標籤是成對，開始和關閉，運行從上到下-->
+<!--縮排和換行是為了分便閱讀程式碼，不縮排和換行也可執行-->
+<!--編碼+tab，快速建立標籤-->
+<html>
+    <!--head是網頁資訊-->
+    <head>
+        <!--meta標籤用法：告訴瀏覽器此網頁的編碼方式，告訴瀏覽器和搜索引擎更多有關此網頁的資訊-->
+        <!--用UTF-8的編碼方式即可使用中文-->
+        <meta charset="UTF-8"></meta>
+
+        <!--對於此網站的描述(網址下方的描述)：name="description"，內容:content=""-->
+        <meta name="description" content="描述"/>
+
+        <!--網站作者：name="author"-->
+        <meta name="author" content="作者"/> 
+
+        <!--網站關鍵字：name="keywords"-->
+       <meta name="keywords" content="關鍵字1,關鍵字2,關鍵字3"/>
+
+       <!--網站視口：name="viewport"，根據裝置不同而調整寬度：width=device-width，進入網頁時初始的縮放比是100%-->
+       <mata name="viewport" content="width=device-width, initial-scale=1.0 "/>
+
+       <!--標籤title是網頁名稱-->
+        <title>臺北自來水園區 Taipei Water Park</title>
+        <link rel="stylesheet" href="style.css">
+        <div style="font-size:13px; font-family:sans-serif"></div>
+
+    </head>
+    <body>
+
+        <style type="text/css">
+            a:link{
+            text-decoration:none;
+            color:#fafafa;
+            }
+           
+            a:hover {
+            color:gray;
+            }
+
+            a:active {
+            text-decoration:none;
+            color:#000000;
+            }
+            </style>
+
+        <div class="photo">
+            <img src="logo.jpg" height="80"/>
+            <!--style="display:block; margin:auto;"-->
+        </div>
+
+        <!--標題大小，h1-h6-->
+        <div class="container">
+            <div class="box-1"; style="font-family:Microsoft JhengHei;"><a href="index.html" style="color:rgb(255, 255, 255);">首頁</a></div>
+            <div class="box-2"; style="font-family:Microsoft JhengHei;"><a href="traffic.html" style="color:rgb(255, 255, 255);">交通資訊</a></div>
+            <div class="box-3"; style="font-family:Microsoft JhengHei;"><a href="booking.html" style="color:rgb(255, 255, 255);">線上預約</a></div>
+            <div class="box-4"; style="font-family:Microsoft JhengHei;"><a href="guide.html" style="color:rgb(255, 255, 255);">全區導覽</a></div>
+            <div class="box-5"; style="font-family:Microsoft JhengHei;"><a href="ticket.html" style="color:rgb(255, 255, 255);">參觀票價</a></div>
+            <div class="box-6"; style="font-family:Microsoft JhengHei;"><a href="tourism.html" style="color:rgb(255, 255, 255);">遊客須知</a></div>
+        </div>
+
+        <div class="img-ctn">
+            <img class="icon8" src="icon-08.jpg"  />
+            <img class="icon9" src="icon-09.jpg"  />
+            <img class="icon10" src="icon-10.jpg" />
+            <img class="icon11" src="icon-11.jpg" />
+            <img class="icon12" src="icon-12.jpg" />
+            <img class="icon13" src="icon-13.jpg" />
+            <img class="icon14" src="icon-14.jpg" />
+            <img class="icon15" src="icon-15.jpg" />
+            <img class="icon16" src="icon-16.jpg" />
+          </div>
+
+
+
+       
+
+
+
+
+        <style>
+            body{
+            margin:0px;
+            padding:0px;
+            background:#fff center center fixed no-repeat;
+            }        
+        </style>
+
+    
+    </body>
+</html>
